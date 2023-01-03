@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ScoreBoard extends StatelessWidget {
+class ScoreBoard extends StatelessWidget {//传入参数为分数，用于显示分数
   final int curScore; //分数
   const ScoreBoard({
     Key? key,

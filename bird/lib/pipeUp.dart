@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:bird/main.dart';
 //const double pipWidth = 60;
 
-class PipeUp extends StatelessWidget {
+class PipeUp extends StatelessWidget {//传入参数为管道X、Y轴坐标和管道长度，宽度已确定
   const PipeUp({
     Key? key,
     required this.pipeX,
